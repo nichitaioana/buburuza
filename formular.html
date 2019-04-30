@@ -1,0 +1,105 @@
+<!--
+    nume 
+    prenume tip input nume, valoare
+    parola
+    username
+    email
+    cunostinte programare tip radio: deloc, medii, avansate
+    type image: yes/no
+    sa ai 3 butoane: buton simplu, Reset, Submit
+
+-->
+
+<html>
+	<head>
+	<title>Formular</title>
+	</head>
+<body>
+	<table border="2">
+		<tr>
+			<th>Nume</th>
+			<td><input type="text" name="nume" value=""></td>
+		</tr>
+        
+        <tr>
+			<th>Prenume</th>
+			<td><input type="text" name="prenume" value=""></td>
+        </tr>
+        
+        <tr>
+            <th>Parola</th>
+            <td><input type="password" name="parola" value=""></td>
+        </tr>
+        
+        <tr>
+            <th>Username</th>
+            <td><input type="text" name="username" value=""></td>
+        </tr>
+
+        <tr>
+            <th>Email</th>
+			<td><input type="text" name="email" value=""></td>  
+        </tr>
+
+        <tr>
+			<th>Cunostinte programare</th>
+			<td>    <input type="radio" name="Cunostinte programare" value="">Deloc 
+                    <input type="radio" name="Cunostinte programare" value="">Medii
+                    <input type="radio" name="Cunostinte programare" value="">Avansate
+            </td>
+        </tr>
+
+        <tr>
+            <th>Detalii cunostinte</th>
+            <td> 
+                <textarea rows="7" cols="21">Aceasta casuta de text se intinde pe 7 randuri si 21 de coloane
+                    </textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Programe preferate</th>
+            <td>
+                    <select>
+                            <optgroup label="GIT">
+                                <option value="github">Git Hub</option>
+                                <option value="gitgui">Git Gui</option>
+                                <option value="gitbash">Git Bash</option>
+                                <option value="gitcmd">Git CMD</option>
+                            </optgroup>
+                            
+                            <optgroup label="Java">
+                                <option value="javascript">Java Script</option>
+                                <option value="java">Java</option>
+                            </optgroup>
+                        </select>
+            </td>
+        </tr>
+
+
+        
+    </table>
+    
+<fieldset>
+    <legend>Vrei sa te inscrii la concurs?</legend>
+
+<label for="yes">DA
+    <input type="image" src="C:\Users\Fujitsu\Desktop\site buburuza\buburuza\yes.png" height="38" width="62"
+    alt="yes" border="0" name="yes">
+</label>
+    
+<label for="no">NU
+    <input type="image" src="C:\Users\Fujitsu\Desktop\site buburuza\buburuza\no.png" height="38" width="61" alt="no"
+    border="0" name="no">
+</label>
+</fieldset>
+
+<fieldset>
+    <legend>Selecteaza un buton</legend>
+    <input type="button" value="Butonul simplu"><p>
+    <input type="reset" value="Butonul de reset"><p>
+    <input type="submit" value="Butonul de trimis">
+</fieldset>  
+  
+</body>
+</html>
